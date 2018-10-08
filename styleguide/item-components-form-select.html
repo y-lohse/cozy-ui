@@ -87,19 +87,17 @@
           the "root" element comes first in this loop, and can be detected using
           the "#if @first" block as seen below.
         -->
-            <header class="kss-section kss-section--depth-3" id="kssref-components-buttons-alert">
+            <header class="kss-section kss-section--depth-3" id="kssref-components-form-select">
 
             <article class="kss-section__content">
 
-              <a class="kss-section__permalink" href="#kssref-components-buttons-alert">
+              <a class="kss-section__permalink" href="#kssref-components-form-select">
                 <h3 class="kss-section__item kss-section__item--depth-3">
-                  <span class="kss-section__ref">5.8.4</span>
-                  <span class="kss-section__name">Alert&#x27;s buttons</span>
+                  <span class="kss-section__ref">5.4.6</span>
+                  <span class="kss-section__name">Select</span>
                 </h3>
               </a>
 
-                <div class="kss-section__description"><p>Buttons that look like links, with icons</p>
-</div>
 
             </article>
 
@@ -108,42 +106,92 @@
 
                   <h2 class="kss-modifiers__name">Default styling</h2>
 
-                <div class="kss-modifiers__example"><div class="u-p-1">
-    <button class="c-btn-alert [modifier class] u-m-1"><span>Click me, I'm a button!</span></button>
-    <a href="#" class="c-btn-alert [modifier class] u-m-1"><span>Click me, I'm a link!</span></a>
-</div></div>
+                <div class="kss-modifiers__example"><form>
+   <div>
+       <select class="c-select [modifier class]">
+           <option value="" disabled selected>Choose your option</option>
+           <option value="1">Option 1</option>
+           <option value="2">Option 2</option>
+           <option value="3">Option 3</option>
+           <option value="4">Option 4</option>
+       </select>
+   </div>
+</form></div>
 
-                  <h2 class="kss-modifiers__name">.c-btn-alert--error</h2>
+                  <h2 class="kss-modifiers__name">.is-error</h2>
 
-                  <p class="kss-modifiers__description">Error button</p>
+                  <p class="kss-modifiers__description">Error variant</p>
 
-                  <div class="kss-modifiers__example"><div class="u-p-1">
-    <button class="c-btn-alert c-btn-alert--error u-m-1"><span>Click me, I'm a button!</span></button>
-    <a href="#" class="c-btn-alert c-btn-alert--error u-m-1"><span>Click me, I'm a link!</span></a>
-</div></div>
-                  <h2 class="kss-modifiers__name">.c-btn-alert--info</h2>
+                  <div class="kss-modifiers__example"><form>
+   <div>
+       <select class="c-select is-error">
+           <option value="" disabled selected>Choose your option</option>
+           <option value="1">Option 1</option>
+           <option value="2">Option 2</option>
+           <option value="3">Option 3</option>
+           <option value="4">Option 4</option>
+       </select>
+   </div>
+</form></div>
+                  <h2 class="kss-modifiers__name">.c-select--tiny</h2>
 
-                  <p class="kss-modifiers__description">Information button</p>
+                  <p class="kss-modifiers__description">Tiny size variant</p>
 
-                  <div class="kss-modifiers__example"><div class="u-p-1">
-    <button class="c-btn-alert c-btn-alert--info u-m-1"><span>Click me, I'm a button!</span></button>
-    <a href="#" class="c-btn-alert c-btn-alert--info u-m-1"><span>Click me, I'm a link!</span></a>
-</div></div>
-                  <h2 class="kss-modifiers__name">.c-btn-alert--success</h2>
+                  <div class="kss-modifiers__example"><form>
+   <div>
+       <select class="c-select c-select--tiny">
+           <option value="" disabled selected>Choose your option</option>
+           <option value="1">Option 1</option>
+           <option value="2">Option 2</option>
+           <option value="3">Option 3</option>
+           <option value="4">Option 4</option>
+       </select>
+   </div>
+</form></div>
+                  <h2 class="kss-modifiers__name">.c-select--medium</h2>
 
-                  <p class="kss-modifiers__description">Success button</p>
+                  <p class="kss-modifiers__description">Medium size variant</p>
 
-                  <div class="kss-modifiers__example"><div class="u-p-1">
-    <button class="c-btn-alert c-btn-alert--success u-m-1"><span>Click me, I'm a button!</span></button>
-    <a href="#" class="c-btn-alert c-btn-alert--success u-m-1"><span>Click me, I'm a link!</span></a>
-</div></div>
+                  <div class="kss-modifiers__example"><form>
+   <div>
+       <select class="c-select c-select--medium">
+           <option value="" disabled selected>Choose your option</option>
+           <option value="1">Option 1</option>
+           <option value="2">Option 2</option>
+           <option value="3">Option 3</option>
+           <option value="4">Option 4</option>
+       </select>
+   </div>
+</form></div>
+                  <h2 class="kss-modifiers__name">.c-select--fullwidth</h2>
+
+                  <p class="kss-modifiers__description">Full width variant</p>
+
+                  <div class="kss-modifiers__example"><form>
+   <div>
+       <select class="c-select c-select--fullwidth">
+           <option value="" disabled selected>Choose your option</option>
+           <option value="1">Option 1</option>
+           <option value="2">Option 2</option>
+           <option value="3">Option 3</option>
+           <option value="4">Option 4</option>
+       </select>
+   </div>
+</form></div>
               </article>
 
                 <article class="kss-section__markup">
-                  <pre><code class="language-markup">&lt;div class&#x3D;&quot;u-p-1&quot;&gt;
-    &lt;button class&#x3D;&quot;c-btn-alert [modifier class] u-m-1&quot;&gt;&lt;span&gt;Click me, I&#x27;m a button!&lt;/span&gt;&lt;/button&gt;
-    &lt;a href&#x3D;&quot;#&quot; class&#x3D;&quot;c-btn-alert [modifier class] u-m-1&quot;&gt;&lt;span&gt;Click me, I&#x27;m a link!&lt;/span&gt;&lt;/a&gt;
-&lt;/div&gt;</code></pre>
+                  <pre><code class="language-markup">&lt;form&gt;
+   &lt;div&gt;
+       &lt;select class&#x3D;&quot;c-select [modifier class]&quot;&gt;
+           &lt;option value&#x3D;&quot;&quot; disabled selected&gt;Choose your option&lt;/option&gt;
+           &lt;option value&#x3D;&quot;1&quot;&gt;Option 1&lt;/option&gt;
+           &lt;option value&#x3D;&quot;2&quot;&gt;Option 2&lt;/option&gt;
+           &lt;option value&#x3D;&quot;3&quot;&gt;Option 3&lt;/option&gt;
+           &lt;option value&#x3D;&quot;4&quot;&gt;Option 4&lt;/option&gt;
+       &lt;/select&gt;
+   &lt;/div&gt;
+&lt;/form&gt;</code></pre>
                 </article>
 
             </header>
