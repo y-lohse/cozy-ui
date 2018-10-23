@@ -3055,25 +3055,6 @@ body {
   margin: 0;
 }
 
-.c-counter--2op9S {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  overflow: hidden;
-  background-color: #f5f6f7;
-  color: #fff;
-}
-.c-counter--medium--1ZE3A {
-  width: 2.5rem;
-  height: 2.5rem;
-  font-size: 1.25rem;
-}
-.c-counter-text--6g_Je {
-  font-weight: bold;
-  line-height: 1;
-}
-
 @-moz-keyframes spin--3NpSD {
   from {
     transform: rotate(0deg);
@@ -4885,6 +4866,25 @@ body {
 }
 .Hero-cta--2KhwU {
   text-align: center;
+}
+
+.c-circle--1DuMR {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: #297ef2;
+  color: #fff;
+}
+.c-circle--medium--2hfCF {
+  width: 2.5rem;
+  height: 2.5rem;
+  font-size: 1.25rem;
+}
+.c-circle-text--1jFgD {
+  font-weight: bold;
+  line-height: 1;
 }
 
 .c-avatar--PpDI- {
