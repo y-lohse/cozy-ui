@@ -6618,7 +6618,10 @@ body {
   overflow: hidden;
 }
 .select-option--ov_IT {
-  display: block;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
   padding: 0.5rem;
   border-left: 0.25rem solid transparent;
   color: var(--charcoalGrey);
@@ -6644,7 +6647,13 @@ body {
   margin-right: 0.5rem;
   vertical-align: top;
 }
-.select-option--checkmark--1kN8z {
+.select-option__label--1Xi5R {
+  flex-grow: 1;
+}
+.select-option__checkmark--ChXXs {
+  width: 2rem;
+}
+.select-option__actions--2WOjb {
   float: right;
 }
 .select__overlay--3H8Jy::before {
