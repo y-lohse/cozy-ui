@@ -25420,7 +25420,7 @@ body {
   bottom: env(safe-area-inset-bottom);
   left: 0;
   width: calc(100% - 1rem);
-  margin: 0 0.5rem;
+  margin: 0 1rem;
   padding-bottom: 0.313rem;
   box-sizing: border-box;
 }
