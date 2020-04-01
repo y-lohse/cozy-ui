@@ -10298,6 +10298,23 @@ body {
   color: var(--coolGrey);
 }
 
+.c-DropdownButton--1JXUA {
+  display: inline-flex;
+  align-items: center;
+  background: none;
+  border: 0;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+}
+.c-DropdownButton-Icon--ohvD2 {
+  margin-top: 0.125rem;
+  margin-left: 0.25rem;
+}
+
+.ErrorMessage--PWDaA {
+  color: var(--pomegranate);
+}
+
 :root {
 /*
     Grey
@@ -10448,10 +10465,6 @@ body {
   .c-card--inset--2pofc {
     margin: 0.5rem;
   }
-}
-
-.ErrorMessage--PWDaA {
-  color: var(--pomegranate);
 }
 
 .media--cSJMp {
@@ -25410,23 +25423,11 @@ iframe {
   min-height: 4rem;
 }
 .c-actionmenu-item--gODqd {
-  padding: 0.75rem 0;
+  height: 3rem;
   cursor: pointer;
 }
 .c-actionmenu-item--gODqd:hover {
   background-color: var(--paleGrey);
-}
-.c-actionmenu-button--3HVCb {
-  display: inline-flex;
-  align-items: baseline;
-  font-size: 0.875rem;
-  background: none;
-  border: 0;
-  cursor: pointer;
-  padding: 0.5rem 1rem;
-}
-.c-actionmenu-button-text--3bIqs {
-  margin-right: 0.5rem;
 }
 
 :root {
@@ -31530,10 +31531,7 @@ progress.upload-queue-progress--1CmN-::-moz-progress-bar {
     content: '';
     background: var(--white);
   }
-  .upload-queue--popover--2z1a4 .upload-queue--visible--DjVRs {
-    max-height: 30%;
-  }
-  .upload-queue--popover--2z1a4 .upload-queue--visible--DjVRs {
+  .upload-queue--popover--2z1a4.upload-queue--visible--DjVRs {
     max-height: 30%;
   }
   .upload-queue--popover--2z1a4 .upload-queue-content--3MPHo {
